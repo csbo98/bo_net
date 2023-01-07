@@ -4,7 +4,6 @@
 #ifndef BO_NET_BASE_COPYABLE_H
 #define BO_NET_BASE_COPYABLE_H
 
-
 namespace bo_net {
     // copyable作为一个标签类，用于强调对象是一个可拷贝对象  
     // 一个子类通过继承copyable类来强调自己是一个可拷贝对象，

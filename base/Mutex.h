@@ -2,8 +2,8 @@
 #define BO_NET_BASE_MUTEX_H
 
 #include "CurrentThread.h"
-#include "noncopyable.h"
 
+#include <boost/noncopyable.hpp>
 #include <assert.h>
 #include <pthread.h>
 
@@ -114,7 +114,7 @@ namespace bo_net
 //   mutable MutexLock mutex_;
 //   std::vector<int> data_ GUARDED_BY(mutex_);
 // };
-class CAPABILITY("mutex") MutexLock : noncopyable
+class CAPABILITY("mutex") MutexLock : boost::noncopyable
 {
     public:
 

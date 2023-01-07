@@ -8,12 +8,11 @@
 #include <deque>
 #include <assert.h>
 
-
 namespace bo_net
 {
 
 template<typename T>
-class BlockingQueue : noncopyable
+class BlockingQueue : boost::noncopyable
 {
     public:
         using queue_type = std::deque<T>;

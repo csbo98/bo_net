@@ -7,7 +7,7 @@
 namespace bo_net
 {
 
-class Condition :noncopyable
+class Condition : boost::noncopyable
 {
     public:
 

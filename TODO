@@ -1,0 +1,1 @@
+1. 日志库部分可以修改使用阻塞队列在前后端之间传递消息；参考Java的ConcurrentHashMap使用多个bucket，前端写日志的时候按照线程id哈希到不同的bucket，减小contention。 

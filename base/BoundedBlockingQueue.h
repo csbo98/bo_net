@@ -11,7 +11,7 @@ namespace bo_net
 {
 
 template<typename T>
-class BoundedBlockingQueue : noncopyable
+class BoundedBlockingQueue : boost::noncopyable
 {
 
     public:
